@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap2/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="login.css">
+    <title>inside-out</title>
+    <link rel="icon" href="user-svgrepo-com (2).svg" type="svg">
+</head>
+
+<body>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-sm  navPrivate ">
+            <div class="container-fluid">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link linkPrivate" href="index.html">בית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkPrivate" href="diagnosis.html">אבחונים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link linkPrivate" href="professinal.html">אבחונים מקצועיים</a>
+                    </li>
+                </ul>
+                <a href="#" id="user" class="linkLogin"><i class="fa-solid fa-circle-user loginIcon"></i> </a>
+
+            </div>
+        </nav>
+    </div>
+    <div class="mainToast">
+        <div id="toast-container" class="toast fade  translate-middle-y " role="alert" aria-live="assertive"
+            aria-atomic="true" dir="rtl" data-bs-autohide="false">
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="close"></button>
+            <div class="toast-body ">
+
+                <div class="mt-2 pt-2 border-top">
+                    <a class="btn btn-primary btn-sm" href="professinal.html">לאבחונים מקצועיים</a>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">אישור</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+
+        <div class="form-structor">
+            <div class="signup">
+                <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+
+                <form action="" id="signUp">
+                    <div class="form-holder">
+                        <input type="text" name="name" class="input" placeholder="Name" required="required"
+                            minlength="2" />
+                        <input type="email" name="email" class="input" placeholder="Email" />
+                        <input type="password" name="password" class="input" placeholder="Password" minlength="8"
+                            required="required" />
+                    </div> <button type="submit" class="submit-btn">Sign up</button>
+                </form>
+
+            </div>
+            <div class="login slide-up">
+                <div class="center">
+                    <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+
+                    <form action="" id="logIn">
+                        <div class="form-holder">
+                            <input type="email" class="input" placeholder="Email" name="email" required="required" />
+                            <input type="password" class="input" placeholder="Password" name="password" minlength="8"
+                                required="required" />
+                        </div> <button class="submit-btn">Log in</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap2/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
+    <script src="general.js"></script>
+</body>
+
+</html>

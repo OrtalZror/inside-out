@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap2/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="mainAnnimation.css">
+  <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="general.css">
+  <title>inside - out</title>
+  <link rel="icon" href="user-svgrepo-com (2).svg" type="svg">
+</head>
+
+<body id="body">
+
+  <div class="box p-5 bg-primary text-white text-center "
+    style="overflow:hidden; font-family: 'Trebuchet MS', 'Lucida Sans Unicode'; ">
+    <div class="word"></div>
+  </div>
+  </div>
+  <nav class="navbar navbar-expand-sm navPrivate sticky-top " style="z-index: 0;">
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active " href="#">בית</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link linkPrivate" href="diagnosis.html">אבחונים</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link linkPrivate" href="professinal.html">אבחונים מקצועיים</a>
+        </li>
+      </ul>
+      <a href="login.html" id="user" class="linkLogin"><i class="fa-solid fa-circle-user loginIcon"></i> </a>
+    </div>
+  </nav>
+  <div class="mainToast">
+    <div id="toast-container" class="toast fade  translate-middle-y " role="alert" aria-live="assertive"
+      aria-atomic="true" dir="rtl" data-bs-autohide="false">
+      <div class="toast-body ">
+        אין למערכת אחריות על אמינות ונכונות האבחונים.
+        <div class="mt-2 pt-2 border-top">
+          <a class="btn btn-primary btn-sm" href="professinal.html">לאבחונים מקצועיים</a>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="auto()" data-bs-dismiss="toast">אישור</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="opacity container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>קצת עלינו:</h2>
+        <p> מאז שנת 2003 כמרכז רב תחומי מוביל המספק את שלל האבחונים בשלל תחומים לילדים נוער ומבוגרים הספקנו לעזור לאלפי
+          אנשים לגלות את החוזקות שלהם, להבין את עצמם טוב יותר ,לעזור לסביבתם להבין אותם ולחיות חיים טובים יותר.</p>
+        <h5 class="mt-4">האבחונים הממומלצים שלנו:</h5>
+        <p>אבחונים ממיטב המומחים שלנו שיגיעו אליכם ישירות לתיבת המייל .</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="professinal.html">אבחונים מקצועיים לילדים</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="professinal.html">אבחונים מקצועיים לנוער</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="professinal.html">אבחונים מקצועיים למבוגרים</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h5>כל מה שצריך לדעת על האבחונים:</h5>
+        <p>אבחון מטרתו לתת אבחנה באבחון פסיכולוגי האבחנה מצביעה על מצבו הנפשי של האדם, על קיומה או אי קיומה של קושי או
+          הפרעה נפשית או איפיון מצבו האישיות של האדם.
+          כך האבחנה באבחון פסיכודידקטי מתיחסת ללקויות למידה כגון דיסלקציה, דיסקלקוליה או פערים בין יכולות שכליות מסוימות
+          ליכולות ביצועיות
+          בגדול התהליך אמור להביא כותרת או שם שאוצר בתוכו רשימת מאפיינים המצטרפים להגדרה של קושי או הפרעה מסוימים, בשנים
+          האחרונות
+          עקב שינויים בתחום התאמות שעושה משרד החינוך עבור תלמידים על לקויות למידה, והעלאת המודעות לשוני בין תלמידים
+          והמענים להם זקוקים כדי להצליח בלימודים, ועם השינויים החלים בחוק החינוך המיוחד יותר ויותר הורים פונים אלינו
+          לאבחון במטרה לאפשר להם נקודת פתיחה טובה יותר ללימודים לבגרויות ולחיים שאחרי בית הספר.
+          חשוב להבין מה מטרת האבחון ולפנות לאיש המקצוע שמוסמך ומוכר על ידי הרשויות לערוך אבחון זה. בנקודה זו חשוב לציין
+          שילד או נער אשר תוצאות האבחון הראו על קיום של לקות למידה או הפרעת קשב וריכוז עשויים לקבל על ידי משרד החינוך
+          התאמות מסוימות במשימות הערכה במהלך הלימודים בתיכון. אם בעבר עצם הפניה לאבחון שלא לדבר על תוצאות שמאתרות לקות
+          כל שהיא היו עילה לבושה והסתרה, היום ילדים הם היוזמים והדוחפים לאבחון במטרה לקבל הארכת זמן או בלשונים 'הקלות
+          במבחנים'. כמה שחשובה המודעות
+          שמאפשרת למי שצריך נגישות טובה יותר והזדמנות אמיתית להצלחה. חשוב גם המסר שהתאמות אלו אינם הקלות. לילד שאכן סובל
+          מלקות למידה או הפרעת קשב או הפרעה כל שהיא
+          ההתאמות לא עושות את החיים קלים יותר רק מעט יותר נגישים האבחון אמור להיות אוביקטיבי ואמור להתגבר על הטיות
+          מכוונות - ילדים שרוצים הארכת זמן, לדוגמא. אבל בכל אבחון יש הבטים תרבותיים, הבטים של נסיון קודם וחשיפה מוקדמת
+          לגירויים המוצגים באבחון ועל המאבחן לקחת הטיות אלו בחשבון.
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <h2>
+        inside - out
+      </h2>
+    </div>
+    <div class="container layout_padding2">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            אודות
+          </h5>
+          <p>
+            אנחנו פועלים כבר מאז 2003 לעזור לאנשים להכיר ולהבין את עצמם טוב יותר.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            קישורים מומלצים
+          </h5>
+          <ul>
+            <li>
+              <a href="diagnosis.html">
+                אבחונים חינמיים
+              </a>
+            </li>
+            <li>
+              <a href="professinal.html">
+                אבחונים מקצועיים
+              </a>
+            </li>
+            <li>
+              <a href="login.html">
+                כניסה והרשמה
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            צור קשר
+          </h5>
+          <p>
+            053-3108932 אורטל <br>
+            052-7150229 פיגא מרים
+
+          </p>
+        </div>
+        <div class="col-md-3">
+
+          <div class="subscribe_container">
+            <h5>
+              ניוזלטר
+            </h5>
+            <div class="form_container">
+              <form action="">
+                <input type="email" placeholder="מייל">
+                <button type="submit">
+                  שלח
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="social_container">
+
+        <div class="social-box">
+          <a href="">
+            <img src="image/images/fb.png" alt="">
+          </a>
+
+          <a href="">
+            <img src="image/images/twitter.png" alt="">
+          </a>
+          <a href="">
+            <img src="image/images/linkedin.png" alt="">
+          </a>
+          <a href="">
+            <img src="image/images/instagram.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="mt-5 p-4 text-dark text-center footerPrivate">
+    <p>© all rights reserved. Ortal and Faiga Miriam</p>
+  </div>
+  <script src="jquery.js"></script>
+  <script type="text/javascript" src="bootstrap2/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="mainAnnimation.js"></script>
+  <script src="general.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap2/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="topAnnimation.css">
+  <link rel="stylesheet" href="general.css">
+  <title>Inside out</title>
+  <link rel="icon" href="user-svgrepo-com (2).svg" type="svg">
+</head>
+
+<body>
+  <div class="p-5 bg-light text-white text-center box">
+    <div class="waviy">
+      <span style="--i:1">I</span>
+      <span style="--i:2">N</span>
+      <span style="--i:3">S</span>
+      <span style="--i:4">I</span>
+      <span style="--i:5">D</span>
+      <span style="--i:6">E</span>
+      <span style="--i:7">-</span>
+      <span style="--i:8">O</span>
+      <span style="--i:9">U</span>
+      <span style="--i:10">T</span>
+
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm  navPrivate sticky-top">
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link linkPrivate" href="index.html">בית</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">אבחונים</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link linkPrivate" href="professinal.html">אבחונים מקצועיים</a>
+        </li>
+
+      </ul>
+      <a href="login.html" id="user" class="linkLogin"><i class="fa-solid fa-circle-user loginIcon"></i> </a>
+
+    </div>
+  </nav>
+  <div class="container container-fluid pt-5 text-center">
+    <div class="row align">
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-calendar-days icon text-center "></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון תאריך לידה</h4>
+          <p class="card-text">אבחון קל ומהיר שניתן לעשות כבר מגיל אפס.</p>
+          <button id="id0" class="btn btn-primary" onclick="history('date',0)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('date','id0')">בואו נתחיל...</button>
+        </div>
+      </div>
+
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-panorama icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון התמונות</h4>
+          <p class="card-text">מה התמונה שלך? ומה היא אומרת עליך?</p>
+          <button id="id1" class="btn btn-primary" onclick="history('image',1)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('image','id1')">בואו נתחיל...</button>
+        </div>
+      </div>
+
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-mosquito icon text-center"></i>
+
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון הפרפרים</h4>
+          <p class="card-text">הפרפר היפה ביותר יספר לך על עצמך .</p>
+          <button id="id2" class="btn btn-primary" onclick="history('butterfly',2)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('butterfly','id2')">בואו נתחיל...</button>
+        </div>
+      </div>
+
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-comments icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">סגנונות תקשורת</h4>
+          <p class="card-text">אחרי האבחון הזה תבינו את עצמכם ואת הסביבה טוב יותר</p>
+          <button id="id3" class="btn btn-primary" onclick="history('communication',3)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('communication','id3')">בואו נתחיל...</button>
+        </div>
+      </div>
+
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-brain icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון 7 אינטלגנציות</h4>
+          <p class="card-text">אבחון שיגלה לכם מהו התחום החזק שלכם</p>
+          <button id="id4" class="btn btn-primary" onclick="history('intelligence',4)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('intelligence','id4')">בואו נתחיל...</button>
+        </div>
+      </div>
+
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-book-open-reader icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון צורות למידה</h4>
+          <p class="card-text">אבחון שיעזור לך ללמוד טוב יותר וגם להצליח!</p>
+          <button id="id5" class="btn btn-primary" onclick="history('learn',5)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('learn','id5')">בואו נתחיל...</button>
+        </div>
+      </div>
+
+
+      <div class="card card-margin cardPrivate">
+
+        <i class="fa-solid fa-users icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון סביבתי</h4>
+          <p class="card-text">אבחון שיגלה לכם מה אחרים חושבים עליכם בלב.</p>
+          <button id="id6" class="btn btn-primary" onclick="history('see',6)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('see','id6')">בואו נתחיל...</button>
+        </div>
+      </div>
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-tree icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">כי האדם עץ השדה</h4>
+          <p class="card-text">העץ שתבחרו יגלה לכם עוד פרטים באישיותיכם</p>
+          <button id="id7" class="btn btn-primary" onclick="history('tree',7)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('tree','id7')">בואו נתחיל...</button>
+        </div>
+      </div>
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-hand-holding-heart icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון תחושתיות</h4>
+          <p class="card-text">אחרי האבחון הזה תבינו את עצמכם ואת הסביבה טוב יותר</p>
+          <button id="id8" class="btn btn-primary" onclick="history('sensory',8)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('sensory','id8')">בואו נתחיל...</button>
+        </div>
+      </div>
+      <div class="card card-margin cardPrivate">
+        <i class="fa-solid fa-umbrella-beach icon text-center"></i>
+        <div class="card-body">
+          <h4 class="card-title text-center">אבחון הטיול</h4>
+          <p class="card-text">צאו לטיול וגלו על עצמכם עוד דברים.</p>
+          <button id="id9" class="btn btn-primary" onclick="history('trip',9)"><i
+              class="fa-solid fa-clock-rotate-left"></i></button>
+          <button class="btn btn-primary buttonPrivate" onclick="setType('trip','id9')">בואו נתחיל...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <h2>
+        inside - out
+      </h2>
+    </div>
+    <div class="container layout_padding2">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>
+            אודות
+          </h5>
+          <p>
+            אנחנו פועלים כבר מאז 2003 לעזור לאנשים להכיר ולהבין את עצמם טוב יותר.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            קישורים מומלצים
+          </h5>
+          <ul>
+            <li>
+              <a href="diagnosis.html">
+                אבחונים חינמיים
+              </a>
+            </li>
+            <li>
+              <a href="professinal.html">
+                אבחונים מקצועיים
+              </a>
+            </li>
+            <li>
+              <a href="login.html">
+                כניסה והרשמה
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>
+            צור קשר
+          </h5>
+          <p>
+            053-3108932 אורטל <br>
+            052-7150229 פיגא מרים
+
+          </p>
+        </div>
+        <div class="col-md-3">
+
+          <div class="subscribe_container">
+            <h5>
+              ניוזלטר
+            </h5>
+            <div class="form_container">
+              <form action="">
+                <input type="email" placeholder="מייל">
+                <button type="submit">
+                  שלח
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="social_container">
+
+        <div class="social-box">
+          <a href="">
+            <img src="image/images/fb.png" alt="">
+          </a>
+
+          <a href="">
+            <img src="image/images/twitter.png" alt="">
+          </a>
+          <a href="">
+            <img src="image/images/linkedin.png" alt="">
+          </a>
+          <a href="">
+            <img src="image/images/instagram.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="mt-5 p-4  text-dark text-center footerPrivate">
+    <p>© all rights reserved. Ortal and Faiga Miriam</p>
+  </div>
+  <script type="text/javascript" src="bootstrap2/js/bootstrap.js"></script>
+  <script type="text/javascript" src="bootstrap2/js/bootstrap.min.js"></script>
+  <script src="diagnosis.js"></script>
+  <script src="general.js"></script>
+</body>
+
+</html>
